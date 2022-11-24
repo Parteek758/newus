@@ -1,0 +1,131 @@
+.contactmain{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+.contact-wrapper{
+width: 95%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.conatct-headding{
+width: 95%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 20px;
+}
+.contact-info{
+width: 600px;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-between;
+}
+.contant-no{
+width: 260px;
+height: 100px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+margin-bottom: 10px;
+}
+.icon{
+font-size: 30px;
+color: #101729;
+}
+.contant-no p{
+margin-left: 20px;
+}
+.contact-image{
+width: 600px;
+}
+.contact-image img{
+width: 100%;
+height: 100%;
+border-radius: 10px;
+}
+.location{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 10px;
+}
+.location-wrapper{
+width: 95%;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: space-evenly;
+}
+.map{
+width: 600px;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: space-between;    
+}
+.map iframe{
+width: 100%;
+height: 100%;
+}
+.location-form{
+width: 600px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.form{
+height: 90%;
+width: 90%;
+display: flex;
+justify-content: space-between;
+align-items:  center;
+flex-wrap: wrap;
+padding: 1rem;
+}
+input {
+height: 2rem;
+margin-bottom: 20px;
+border: solid 1px rgba(168, 159, 159, 0.616);
+padding: 5px;
+border-radius: 5px;
+outline: none;
+}
+#name {
+width: 44%;
+}
+#email {
+width: 44%;
+}
+#subject {
+width: 100%;
+}
+textarea {
+outline: none;
+width: 100%;
+height: 200px;
+padding: 5px;
+border-radius: 5px;
+border: solid 1px rgba(168, 159, 159, 0.616);
+margin-bottom: 20px;
+}
+.button{
+width: 40%;
+height: 45px;
+background-color:#101729;
+border: none;
+color: white;
+cursor: pointer;
+border-radius: 5px;
+}
+.button:hover{
+background-color: white;
+color: #101729;
+border: solid #101729 1.5px;}
+    
